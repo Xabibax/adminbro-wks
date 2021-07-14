@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "../built",
+
+    "rootDir": "src",
+    "baseUrl": "src",
+    "declaration": true,
+
+    "moduleResolution": "node",
+    "declarationDir": "types",
+
+    "resolveJsonModule": true,
+    "checkJs": false,
+
+    "types": [
+        "react",
+        "node"
+      ],
+    "jsx": "react"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.d.ts",
+    "src/spec/**/*",
+    "**/*spec.ts",
+    "node_modules/**/*",
+  ],
+  "extends": "@tsconfig/node14/tsconfig.json"
+}

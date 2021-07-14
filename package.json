@@ -1,0 +1,30 @@
+{
+    "name": "adminbro-wks",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./index.js",
+    "scripts": {
+        "start": "node ./index.js",
+        "start-dev": "nodemon -w",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@adminjs/express": "^4.0.0",
+        "@adminjs/sequelize": "^2.0.0",
+        "@types/express-formidable": "^1.0.5",
+        "adminjs": "^5.0.1",
+        "express": "^4.17.1",
+        "express-formidable": "^1.2.0",
+        "express-session": "^1.17.2"
+    },
+    "devDependencies": {
+        "@tsconfig/node14": "^1.0.1",
+        "@tsconfig/recommended": "^1.0.1",
+        "@types/express": "^4.17.13",
+        "nodemon": "^2.0.12",
+        "ts-node": "^10.1.0",
+        "tslib": "^2.3.0"
+    }
+}
